@@ -1,0 +1,167 @@
+<mjml>
+  <mj-head>
+    <!-- Email Title -->
+    <mj-title>來自島島阿學，有夥伴想認識你！</mj-title>
+    <!-- Email Preview -->
+    <mj-preview>有新夥伴想認識你，看看誰留言給你</mj-preview>
+    <mj-breakpoint width="480px" />
+    <mj-attributes>
+      <mj-text padding="0" color='#536166' line-height='140%' font-weight='400' />
+      <mj-all font-family="Noto Sans TC" />
+    </mj-attributes>
+    <mj-style inline='inline'>
+      .rounded {
+        border-radius: 16px;
+      }
+
+      .userInfo {
+        width: 100%;
+      }
+
+      .mobile-wrapper {
+        display: none;
+      }
+    </mj-style>
+    <mj-style>
+      image {
+        padding: 0;
+        line-height: 0;
+        display: inline-block;
+      }
+
+      @media all and (max-width: 480px) {
+        .mobile-wrapper {
+          display: block !important;
+        }
+
+        .wrapper {
+          display: none;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width='800px' background-color="#59B6B2">
+    <!-- DeskTop Device Start -->
+    <mj-wrapper css-class='wrapper' padding="60px 0 0" background-url="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/background.jpg" background-color="#59B6B2" background-size="cover">
+      <!-- header logo -->
+      <mj-section padding='0'>
+        <mj-column padding='0'>
+          <mj-image width="120px" padding='0' src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/logo.png" alt="logo" />
+        </mj-column>
+      </mj-section>
+      <!-- body content -->
+      <mj-section css-class="bodyContent" vertical-align='middle' text-align='center' padding="48px 24px 162px">
+        <mj-column width='440px' background-color='#FFF' border-radius='16px' padding='32px 40px'>
+          <mj-text font-size="22px" font-style="normal" font-weight="700" line-height="140%" align="center" padding-bottom="20px">有新夥伴想認識你！</mj-text>
+          <mj-text container-background-color='#DEF5F5' css-class="rounded userInfo" padding='12px'>
+            <img width='60px' height='60px' src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/avatar.png" alt="contact infomation" style='display:inline-block;padding:0 8px 0 0;border-radius:50%;' />
+            <span style="display:inline-block;padding:12px 0 0;vertical-align:top;">
+              <span style="display:block;font-size: 16px;font-weight: 700;padding: 0 0 4px;">黃芊宇</span>
+              <span style="display:block;font-size: 14px;">實驗教育學生</span>
+            </span>
+            <span style='display:inline-block;text-align:right;vertical-align:top;padding:25px 0 0 10px;float:right;'>
+              <a href="user-link" style="color:#536166;font-family:Noto Sans TC;font-size:14px;font-weight:normal;Margin:0;text-decoration:none;text-transform:none;border:#16B9B3 1px solid;border-radius:20px;cursor:auto;padding:10px 20px;background:#DEF5F5;" target="_blank">查看檔案</a>
+            </span>
+          </mj-text>
+          <mj-text padding-top='20px'>
+            哈囉，我是高二的自學生，最近剛開始學習人類學，很希望可以找人一起開讀書會討論書籍，詳細的方式可以一起討論，不知道你有沒有興趣呢？
+            自學的路上一直覺得寂寞寂寞的，不知道你自學多久了呢，希望有機會可以認識你跟你聊聊～～
+          </mj-text>
+          <mj-divider border-color="#F3F3F3" border-width="1px" width='100%' padding='20px 0'></mj-divider>
+          <mj-text font-size="14px" font-weight="700" line-height="140%" padding="0">
+            <img width='18px' height='18px' src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/message-icon.png" alt="contact infomation" style='display:inline-block;padding:0;' />
+            <span style='display:inline-block;padding:0;vertical-align:top;'>歡迎用以下的方式聯繫我</span>
+          </mj-text>
+          </mj-text>
+          <mj-text>
+            sing930828@gmail.com
+          </mj-text>
+          <mj-text>
+            Line ID : sing930
+          </mj-text>
+          <mj-text>
+            IG : sing_930828
+          </mj-text>
+      </mj-section>
+
+      <!-- footer -->
+      <!-- hover icon color -->
+      <mj-section background-color='#536166' padding="35px">
+        <mj-column>
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0 0 20px">
+            <mj-social-element src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/home-icon.png" href="https://www.daoedu.tw/"></mj-social-element>
+            <mj-social-element src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/discord-icon.png" href="https://discord.gg/zWc7t9rrXB">
+            </mj-social-element>
+            <mj-social-element src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/instagram-icon.png" href="https://www.instagram.com/daodao_edu/">
+            </mj-social-element>
+            <mj-social-element src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/fecebook-icon.png" href="https://www.facebook.com/daodao.edu">
+            </mj-social-element>
+          </mj-social>
+          <mj-text font-size="12px" align="center" color="#DBDBDB">Tomorrow will be fine. 島島阿學 © 2024.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- DeskTop Device End -->
+
+    <!-- Mobile Device Start -->
+    <mj-wrapper css-class='mobile-wrapper' padding="60px 0 0" background-url="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/background-mobile.png" background-size="cover">
+      <!-- header logo -->
+      <mj-section padding='0'>
+        <mj-column padding='0'>
+          <mj-image width="120px" padding='0' src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/logo.png" alt="logo" />
+        </mj-column>
+      </mj-section>
+      <!-- body content -->
+      <mj-section css-class="bodyContent" full-width='full-width' vertical-align='middle' text-align='center' padding="31px 24px 100px">
+        <mj-column width='480px' background-color='#FFF' border-radius='16px' padding='24px 20px'>
+          <mj-text font-size="22px" font-style="normal" font-weight="700" line-height="140%" align="center" padding-bottom="20px">有新夥伴想認識你！</mj-text>
+
+          <mj-text container-background-color='#DEF5F5' css-class="rounded userInfo" padding='12px'>
+            <img width='60px' height='60px' src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/avatar.png" alt="contact infomation" style='display:inline-block;padding:0 8px 0 0;border-radius:50%;' />
+            <span style="display:inline-block;padding:12px 0 0;vertical-align:top;">
+              <span style="display:block;font-size: 16px;font-weight: 700;padding: 0 0 4px;">黃芊宇</span>
+              <span style="display:block;ont-size: 14px;">實驗教育學生</span>
+            </span>
+            <span style='display:inline-block;text-align:right;vertical-align:top;padding:25px 0 0 10px;float:right;'>
+              <a href="user-link" style="color:#536166;font-family:Noto Sans TC;font-size:14px;font-weight:normal;Margin:0;text-decoration:none;text-transform:none;border:#16B9B3 1px solid;border-radius:20px;cursor:auto;padding:10px 20px;background:#DEF5F5;" target="_blank">查看檔案</a>
+            </span>
+          </mj-text>
+          <mj-text padding-top='20px'>
+            哈囉，我是高二的自學生，最近剛開始學習人類學，很希望可以找人一起開讀書會討論書籍，詳細的方式可以一起討論，不知道你有沒有興趣呢？
+            自學的路上一直覺得寂寞寂寞的，不知道你自學多久了呢，希望有機會可以認識你跟你聊聊～～
+          </mj-text>
+          <mj-divider border-color="#F3F3F3" border-width="1px" width='100%' padding='20px 0'></mj-divider>
+          <mj-text font-size="14px" font-weight="700" line-height="140%" padding="0">
+            <img width='18px' height='18px' src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/message-icon.png" alt="contact infomation" style='display:inline-block;padding:0;' />
+            <span style='display:inline-block;padding:0;vertical-align:top;'>歡迎用以下的方式聯繫我</span>
+          </mj-text>
+          <mj-text>
+            sing930828@gmail.com
+          </mj-text>
+          <mj-text>
+            Line ID : sing930
+          </mj-text>
+          <mj-text>
+            IG : sing_930828
+          </mj-text>
+      </mj-section>
+      <!-- footer -->
+      <!-- hover icon color -->
+      <mj-section background-color='#536166' padding="35px">
+        <mj-column>
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0 0 20px">
+            <mj-social-element src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/home-icon.png" href="https://www.daoedu.tw/"></mj-social-element>
+            <mj-social-element src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/discord-icon.png" href="https://discord.gg/zWc7t9rrXB">
+            </mj-social-element>
+            <mj-social-element src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/instagram-icon.png" href="https://www.instagram.com/daodao_edu/">
+            </mj-social-element>
+            <mj-social-element src="https://raw.githubusercontent.com/daodaoedu/daodao-f2e/prod/public/email/fecebook-icon.png" href="https://www.facebook.com/daodao.edu">
+            </mj-social-element>
+          </mj-social>
+          <mj-text font-size="12px" align="center" color="#DBDBDB">Tomorrow will be fine. 島島阿學 © 2024.</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- Mobile Device End-->
+  </mj-body>
+</mjml>
